@@ -1,8 +1,7 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 import './index.css';
-
-const ReactDOM = require('react-dom');
 
 class SimpleExample extends React.Component {
   constructor() {
